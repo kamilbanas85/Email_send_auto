@@ -28,6 +28,9 @@ attachedFile = Attachment(
 message.attachment = attachedFile
 
 
+#########################################
+# Prepare comany logo to insert to HTML
+
 Company_logo_path = "/dbfs/FileStore/RAPORT_weekly/pic/logo.jpg"
 with open(Company_logo_path, 'rb') as fp:
     Company_logo = fp.read()
